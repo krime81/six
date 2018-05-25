@@ -1,0 +1,183 @@
+﻿html,
+body {
+    background-image: url(/Content/images/background.jpg);
+}
+
+* {
+    font-family: 'callunaregular',Georgia;
+    color: #333;
+    text-shadow: 0px 0px 1px rgba(48, 48, 48, 0.4);
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'nilland-extraboldregular';
+    text-transform: uppercase;
+}
+
+h2, h3, h4 {
+    text-transform: none;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'nilland-blackregular';
+    color: #b64a2f;
+    text-shadow: 0px 0px 1px rgba(182, 74, 47, 0.4);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.tagline h1 {
+    font-family: 'stymiestyluslight';
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 12px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.tagline, .row.nav.main, .intro, footer {
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+.tagline {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+ul.nav {
+    margin-bottom: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+
+    li {
+        line-height: auto;
+        color: #cccccc;
+        text-shadow: 0px 0px 1px rgba(204, 204, 204, 0.4);
+        padding-bottom: 8px;
+
+        a {
+            padding: 0px;
+            height: auto;
+            line-height: normal;
+            font-family: 'callunaregular',Georgia;
+            color: #333;
+            text-shadow: 0px 0px 1px rgba(48, 48, 48, 0.4);
+            text-decoration: underline;
+            font-family: 'nilland-blackregular';
+            font-family: 'nilland-extraboldregular';
+            font-weight: normal;
+            font-style: italic;
+
+            &:hover {
+                background-color: transparent;
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        &.current {
+            > a {
+                color: #b64a2f;
+                text-shadow: 0px 0px 1px rgba(182, 74, 47, 0.4);
+                font-family: 'nilland-blackregular';
+                background-color: inherit;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+ul.nav.main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+ul.nav.main li {
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+ul.nav.main li a {
+    font-weight: normal;
+    font-family: 'narzissregularregular';
+    font-size: 48px;
+    color: #cccccc;
+    text-shadow: 0px 0px 1px rgba(204, 204, 204, 0.4);
+    font-style: normal;
+    text-decoration: none;
+}
+
+ul.nav.main li a:hover {
+    color: black;
+}
+
+ul.nav.main li.current > a {
+    color: black;
+}
+
+ul.nav ul.nav {
+    display: none;
+}
+
+
+li.nav.sub a {
+    font-family: 'nilland-extraboldregular';
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+li.nav.sub.current a {
+    color: #b64a2f;
+    text-shadow: 0px 0px 1px rgba(182, 74, 47, 0.4);
+}
+
+.newsitems .date, .newsitems h2,
+.event .date,
+.event h2 {
+    font-size: 18px;
+    font-family: 'LoraRegular';
+}
+
+.newsitems h2,
+.event h2 {
+    color: #b64a2f;
+    text-shadow: 0px 0px 1px rgba(182, 74, 47, 0.4);
+    font-weight: normal;
+    margin: 0px;
+    line-height: 20px;
+}
+
+.contact h4.booking {
+    color: #333;
+    text-shadow: 0px 0px 1px rgba(48, 48, 48, 0.4);
+}
+
+.contact img {
+    margin-top: 22px;
+}
+
+.row.photoalbum .albumpictures div {
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
